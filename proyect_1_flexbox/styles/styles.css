@@ -1,0 +1,220 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.wrap{
+    display: flex;
+    width: 90%;
+    border: 1px solid #ccc;
+    box-shadow: 3px 2px 3px #eee;
+    height: 120px;
+    align-items: center;
+}
+
+#logo{
+    flex-basis: 68%;
+    margin-left: 50px;
+    font-style: italic;
+    letter-spacing: 1px;
+    text-shadow: 3px 3px 3px #ccc;
+}
+
+#logo h1{
+    cursor: pointer;
+    font-size: 40px;
+}
+
+#menu{
+    flex-basis: 30% auto;
+}
+
+#menu ul{
+    display: flex;
+    
+}
+
+
+#menu ul li{
+    list-style: none;
+    padding: 20px;
+}
+
+#menu ul li:hover{
+    background: #ccc;
+    border-radius: 30px;
+    transition: 200ms;
+}
+
+#menu ul li:last-child{
+    margin-right: 15px;
+}
+
+
+#menu ul li a{
+    color: gray;
+    text-shadow: 1px 1px 1px #ccc;
+}
+
+#central .wrap{
+    height: auto;
+    align-items: flex-start;
+    padding-top: 10px;
+}
+
+#lateral{
+    flex-basis: 30%;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 18px;
+}
+
+#lateral h2{
+    font-size: 18px;
+    color: gray;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+#lateral ul{
+    padding-top: 20px;
+}
+
+#lateral ul li{
+    padding: 10px;
+    list-style: none;
+}
+
+#lateral ul li:hover{
+    border-radius: 100px;
+    transition: 0.4s;
+}
+
+#lateral ul li{
+    background: #eee;
+    margin: 15px;
+    height: 40px;
+    line-height: 40px;
+}
+
+
+#lateral ul li a{
+    color: gray;
+}
+
+#main{
+    flex-basis: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+#main article{
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+    width: 250px;
+    flex-grow: 1;
+    margin: 7px;
+}
+
+#main article img{
+    width: 100%;
+}
+
+#main article h3{
+    padding-top: 10px;
+    font-size: 15px;
+    padding-left: 10px;
+    
+}
+
+#main article p{
+    font-size: 14px;
+    padding-left: 10px;
+    color: gray;
+    padding-bottom: 10px;
+}
+
+#footer .wrap{
+    height: 120px;
+    display: flex;
+}
+
+
+#logofooter{
+    flex-basis: 68%;
+    margin-left: 50px;
+    font-style: italic;
+    letter-spacing: 1px;
+    text-shadow: 3px 3px 3px #ccc;
+}
+
+#logofooter h4{
+    cursor: pointer;
+    font-size: 40px;
+    color: gray;
+}
+
+#label h4{
+    font-size: 20px;
+    text-shadow: 1px 0px 2px #ccc;
+    flex-basis: 38%;
+}
+
+@media(max-width:470px){
+
+    *{
+        padding: 0px;
+        margin: 0px auto;
+    }
+
+    .wrap{
+        display: flex;
+        flex-flow: column;
+        padding: none;
+        margin: none;
+        width: 100%;
+    }
+
+    #logo{
+        margin: 0px auto;
+        padding: 0px;
+    }
+
+    #menu{
+        width: 100%;
+    }
+
+    #lateral{
+        padding-top: 10px;
+        margin: 0px auto;
+        flex-flow: column wrap;
+        padding-left: 0px;
+    }
+
+    #lateral ul{
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        flex-flow: row wrap;
+        width: 100%;
+    }
+
+    #lateral ul li{
+        margin: 5px;
+        width: 60px;
+    }
+
+    #lateral ul li a{
+        font-size: 12px;
+        
+    }
+
+    #logofooter{
+        margin: 0px auto;
+        padding: 0px;
+    }
+}
+
