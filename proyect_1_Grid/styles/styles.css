@@ -1,0 +1,184 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.wrap1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+    width: 90%;
+    border: 1px solid #ccc;
+    box-shadow: 3px 2px 3px #eee;
+    height: 120px;
+}
+
+#logo{
+    line-height: 120px;
+    width: 70%;
+    margin-left: 50px;
+    font-style: italic;
+    letter-spacing: 1px;
+    text-shadow: 3px 3px 3px #ccc;
+}
+
+#logo h1{
+    cursor: pointer;
+    font-size: 40px;
+}
+
+#menu{
+    width: 30%;
+    
+}
+
+#menu ul{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+#menu ul li{
+    line-height: 120px;
+    list-style: none;
+    margin: 20px;
+    margin-top: 0px;
+}
+
+#menu ul li:last-child{
+    margin-right: 15px;
+}
+
+
+#menu ul li a{
+    
+    color: gray;
+    text-shadow: 1px 1px 1px #ccc;
+}
+
+.wrap2{
+    display: grid;
+    grid-template-columns: 20% 78%;
+    
+    width: 90%;
+    border: 1px solid #ccc;
+    box-shadow: 3px 2px 3px #eee;
+    padding-bottom: 20px;
+}
+
+#central .wrap2{
+    height: auto;
+    padding-top: 10px;
+}
+
+#lateral{
+    
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 18px;
+}
+
+#lateral h2{
+    font-size: 18px;
+    color: gray;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+#lateral ul{
+    padding-top: 20px;
+}
+
+#lateral ul li{
+    padding: 10px;
+    list-style: none;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+#lateral ul li:hover{
+    border-radius: 100px;
+    transition: 0.4s;
+}
+
+#lateral ul li{
+    background: #eee;
+    margin: 15px;
+    height: 40px;
+    line-height: 40px;
+}
+
+
+#lateral ul li a{
+    color: gray;
+}
+
+#main{
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 15px;
+}
+
+#main article{
+    height: auto;
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+    width: 100%;
+    margin: 7px;
+}
+
+#main article img{
+    width: 100%;
+}
+
+#main article h3{
+    padding-top: 10px;
+    font-size: 15px;
+    padding-left: 10px;
+    
+}
+
+#main article p{
+    font-size: 14px;
+    padding-left: 10px;
+    color: gray;
+    padding-bottom: 10px;
+}
+
+.wrap3{
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+    
+    width: 90%;
+    border: 1px solid #ccc;
+    box-shadow: 3px 2px 3px #eee;
+    height: 100px;
+}
+
+
+#logofooter{
+    width: 70%;
+    line-height: 100px;
+    margin-left: 50px;
+    font-style: italic;
+    letter-spacing: 1px;
+    text-shadow: 3px 3px 3px #ccc;
+}
+
+#logofooter h4{
+    cursor: pointer;
+    font-size: 40px;
+    color: gray;
+}
+
+
+#label h4{
+    
+    line-height: 100px;
+    cursor: pointer;
+    font-size: 20px;
+    text-shadow: 1px 0px 2px #ccc;
+}
